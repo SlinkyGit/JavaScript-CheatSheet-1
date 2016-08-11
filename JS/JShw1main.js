@@ -25,7 +25,7 @@ var user = {
 
 console.log (user.firstName + " " + user.lastName);
 
-//You can add Logic, which is true or false statements
+//You can add Logic, which are true or false statements
 if (5>10) {
 	console.log ("You'll never see this because 5 isn't greater than 10")
 }else {

@@ -1,0 +1,48 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>Exercise Using JQuery</title>
+			<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+			<script>
+				$(document).ready(function(){
+
+					$('h2').animate({
+						opacity:5.25,
+						width: "60%"
+					});
+
+					$('#loremIpsum').fadeOut(4000);
+
+					$("#airplane").slideUp(6000);
+
+					$('h3').fadeOut(6000);
+					$('h3').fadeIn(6000);
+
+					$('#faded').animate({
+						opacity:0.15,
+						width: "70%"
+					});
+				});
+
+				$("h1").click(function(){
+ 				alert('imclicked!');
+ 				}
+				);
+			</script>
+		</head>
+			<body>
+
+				<h2>HEY!</h2>
+
+				<p id="faded">This will be faded away (low opacity)</p>
+
+				<p id="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed ornare nisl. Curabitur tempus est ut accumsan convallis. Duis vehicula pretium orci eget cursus. Curabitur purus tortor, accumsan ac risus id, faucibus egestas turpis. Aenean tristique maximus ante ut commodo. Vestibulum aliquet turpis at tortor dictum scelerisque. Quisque iaculis consectetur finibus. Fusce tincidunt elit quis sagittis vestibulum. Praesent vulputate justo iaculis tellus fermentum, ut maximus ex porttitor. Aenean viverra lorem purus, sit amet convallis ante fermentum quis.</p>
+
+				<img id="airplane" src="http://kiddiescornerdeals.com/wp-content/uploads/2012/12/airplane.jpg">
+
+				<h3>Goodbye!</h3>
+
+
+
+			</body>
+	</html>
